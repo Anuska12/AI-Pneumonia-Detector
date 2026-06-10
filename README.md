@@ -30,5 +30,5 @@ The model is trained using the **ChestX-ray14** dataset from [CheXNet](https://g
 ## Installation & Usage  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/AI-Pneumonia-Detector.git
+   git clone https://github.com/Anushka12/AI-Pneumonia-Detector.git
    cd AI-Pneumonia-Detector
