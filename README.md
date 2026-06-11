@@ -13,7 +13,7 @@ Pneumonia diagnosis can be complex, especially for elderly patients. This tool h
 - **Streamlit UI**: Provides an easy-to-use web interface for uploading and analyzing images.  
 
 ## Dataset  
-The model is trained using the **ChestX-ray14** dataset from [CheXNet](https://github.com/arnoweng/CheXNet/tree/master/ChestX-ray14/images), a widely used dataset for pneumonia detection.  
+This project utilizes chest X-ray imaging data for pneumonia detection and leverages a DenseNet-121 architecture inspired by the CheXNet framework. **ChestX-ray14** dataset from [CheXNet](https://github.com/arnoweng/CheXNet/tree/master/ChestX-ray14/images), a widely used dataset for pneumonia detection.  
 
 ## How It Works  
 1. **Upload a Chest X-ray**: Users upload an X-ray image via the Streamlit web interface.  
