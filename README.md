@@ -9,8 +9,9 @@ Pneumonia diagnosis can be complex, especially for elderly patients. This tool h
 ## Features  
 - **Pneumonia Detection**: Uses a pre-trained DenseNet-121 model to analyze chest X-rays.  
 - **Probability Score**: Outputs a high or low probability of pneumonia.  
-- **AI-Generated Explanation**: Uses OpenAI’s GPT to explain the diagnosis in simple terms.  
-- **Streamlit UI**: Provides an easy-to-use web interface for uploading and analyzing images.  
+- **AI-Generated Explanation**: Uses OpenAI’s GPT to explain the diagnosis in simple terms.
+- **Audio Explanation**: Converts AI-generated explanations into speech, allowing users to listen to the diagnosis and recommendations.
+- **Streamlit UI**: Provides an easy-to-use web interface for uploading and analyzing images.
 
 ## Dataset  
 The model is trained using the **ChestX-ray14** dataset from [CheXNet](https://github.com/arnoweng/CheXNet/tree/master/ChestX-ray14/images), a widely used dataset for pneumonia detection.  
@@ -18,14 +19,16 @@ The model is trained using the **ChestX-ray14** dataset from [CheXNet](https://g
 ## How It Works  
 1. **Upload a Chest X-ray**: Users upload an X-ray image via the Streamlit web interface.  
 2. **AI Analysis**: The pre-trained DenseNet-121 model processes the image and predicts the probability of pneumonia.  
-3. **Explanation Generation**: OpenAI’s GPT generates a simple explanation based on the probability score.  
+3. **Explanation Generation**: OpenAI’s GPT generates a simple explanation based on the probability score.
+4. **Audio Output**: Google Text-to-Speech (gTTS) converts the generated explanation into speech, allowing users to listen to the results.
 
 ## Technologies Used  
 - **Deep Learning**: Pre-trained DenseNet-121 from CheXNet  
 - **Python**: For backend processing  
 - **Streamlit**: To build the web interface  
 - **Google Colab**: For training and running the model  
-- **OpenAI GPT**: For generating easy-to-understand explanations  
+- **OpenAI GPT**: For generating easy-to-understand explanations
+- **Google Text-to-Speech (gTTS)**: Converts AI-generated explanations into audio output
 
 ## Installation & Usage  
 1. Clone the repository:  
